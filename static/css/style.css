@@ -1,0 +1,241 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+
+    overflow-x:hidden ;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+    position: fixed;
+    top: 0%;
+    z-index: 100;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.navbar{
+    position: absolute;
+    left: 700px;
+    top: 40px;
+    
+} 
+.navbar a{
+    margin: 3px 10px;
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: 1px solid aqua;
+}
+.header{
+    width: 100%;
+    height: 700px;
+    background-color: #787894;
+    position: relative;
+}
+.header img{
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    right: 8%;
+    border-radius: 50%;
+    top: 15%;
+    box-shadow: 10px -10px 20px #e9ec08,
+                -10px 10px 20px #e2e2e2,
+                10px -10px 20px #e2e2e2,
+                -10px 10px 20px #e2e2e2;  
+}
+.header article{
+    width: 50%;
+    position: relative;
+
+}
+.header article h3{
+    position: absolute;
+    color: aliceblue;
+    font-size: 40px;
+    display: block;
+    top: 200px;
+    left: 10%;
+    text-shadow: 5px 5px 10px #d8d509,
+                -5px 5px 10px #cf1010,
+                5px -5px 10px #c5da0a,
+                -5px 5px 10px #13118a;
+}
+
+
+.about-head{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #180db3cc;
+    margin-top: 10px;
+    border-radius: 100px;
+}
+.about-head h2{
+    text-align: center;
+    color: #aaee0c;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.about_1{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    margin: 20px 20px;
+    position: relative;
+    display: flex;
+    background-color: #aaee0c;
+    padding: 10px;
+    border-radius: 10px;
+}
+.about-img {
+    width: 50%;
+
+}
+.about-img img{
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    border-radius: 20px;
+    top: 40px;
+    left: 50px;
+    
+}
+.about-content p{
+    width: 50%;
+    position: absolute;
+    line-height: 30px;
+    top: 25px;
+    right: 5%;
+    font-size: 20px;
+}
+.player-sed{
+    background-color: #aaee0c;
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.player-head{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.player-head article{
+    margin: 20px;
+   background-color: #cf1010;
+   border-radius: 20px;
+   width: 400px;
+   height: 350px;
+    position: relative;
+}
+.cont-head h3{
+    color: aqua;
+    text-align: center;
+    padding: 20px;
+
+}
+.cont-img img{
+    border-radius: 50%;
+    width: 200px;
+    position: absolute;
+    height: 200px;
+    left: 80px;
+}
+/* .cont-img img:nth-child(3){
+    position: absolute;
+    left: 200px;
+} */
+
+.cont-img a{
+    position: absolute;
+    bottom: 5%;
+    left: 35%;
+    text-decoration: none;
+    background-color: turquoise;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.player-info{
+    position: relative;
+    width: 90%;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 60px;
+    background-color: steelblue;
+    border-radius:0px 0px 50px 50px;
+}
+.player-info a{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+       
+}
+.sponsors{
+    position: relative;
+    left: 200px;
+    top: 50px;
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+.sponsors img:nth-child(1){
+    border-radius: 50%;
+}
+.conta{
+    position: relative;
+    top: 10%;
+    margin-top: 70px;
+}
+.contact{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-top: 20px;
+    padding: 30px;
+}
+.mail{
+    background-color: #c5da0a;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.mail h3{
+    padding-left: 20px;
+    text-transform: lowercase;
+    color: #cf1010;
+}
+#about{
+    height: 50px;
+}
+#sponsor{
+    height: 50px;
+
+}
+#players{
+    height:50px
+}

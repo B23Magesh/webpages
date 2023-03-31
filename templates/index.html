@@ -1,0 +1,145 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSK</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="{% static 'images/csk_logo.jpg' %}" alt="csklogo">
+            </div>
+            <div class="navbar">
+                <a href="#">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#players">PLAYERS</a>
+                <a href="#sponsor">SPONSORS</a>
+                <a href="#contact">CONTACT US</a>
+            </div>
+        </nav>
+    </header>
+    <!--HOME PAGE-->
+    <section class="header">
+        <img src="{% static 'images/team_csk.png' %}" alt="team_csk">
+        <article>
+            <h3>One roar of the lion silences <br><span>the bleating of a thousand sheep.</span><br>We support csk .</h3>
+        </article>
+    </section>
+    <!--about page-->
+    <div id="about"></div>
+    
+    <section >
+        <div class="about-head" >
+            <h2>ABOUT</h2>
+        </div>
+        <div class="about_1">
+        <div class="about-img">
+            <img src="{% static 'images/about_img.jpg'%}" alt="">
+        </div>
+        <article class="about-content">
+            <p>Chennai Super Kings (CSK) is an Indian Premier League (IPL) franchise cricket team based in Chennai, Tamil Nadu, India. 
+                Founded in 2008, the team plays its home matches at the M. A. Chidambaram Stadium in Chennai. The team is owned by India 
+                Cements Limited through the Chennai Super Kings Cricket Limited holding company. The team was suspended for two years from the 
+                IPL starting July 2015 due to the involvement of its owners in the 2013 IPL betting case,[1] and won the title in its comeback season 
+                of 2018. The team is captained by 
+                MS Dhoni and coached by Stephen Fleming. In January 2022, CSK became India's first unicorn sports enterprise</p>
+        </article>
+        </div>
+    </section>
+    <!--PLAYER SECTION-->
+    <div id="players"></div>
+    
+    <section class="player-sec">
+        <div class="about-head" >
+            <h2>PLAYERS</h2>
+        </div>
+    <div class="player-sed">
+    <div class="player-head">
+        <!--MSD-->
+        <article>
+            <div class="container">
+                <div class="content">
+                    <div class="cont-head">
+                        <h3>M.S.DHONI</h3>
+                    </div>
+                    <div class="cont-img">
+                        <img src="{% static 'images/msd.jpg' %}" alt="">
+                        <a href="#">More Info</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </article>
+        <!--RAINA-->
+        <article>
+            <div class="container">
+                <div class="content">
+                    <div class="cont-head">
+                        <h3>SURESH RAINA</h3>
+                    </div>
+                    <div class="cont-img">
+                        <img src="{% static 'images/raina.jpg' %}" alt="">
+                        <a href="#">More Info</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </article>
+        <!--JADEJA-->
+        <article>
+            <div class="container">
+                <div class="content">
+                    <div class="cont-head">
+                        <h3>RAVINDRA JADEJA</h3>
+                    </div>
+                    <div class="cont-img">
+                        <img src="{% static 'images/jadeja.jpg' %}" alt="">
+                        <a href="#">More Info</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </article>
+        
+    </div>
+    <div class="player-info">
+        <a href="{% url 'something:player' %}">More Info</a>
+    
+    </div>
+    </div>
+    </section>
+    <!--SPONSOR-->
+    <div id="sponsor"></div>
+    <section>
+        <div class="about-head" >
+            <h2>SPONSORS</h2>
+        </div>
+        <article class="sponsors">
+            <img src="{% static 'images/sponsor_csk.jpg' %}" alt="csk sponsor">
+            <img src="{% static 'images/sponsor_myntra.png' %}" alt="myntra sponsor">
+        </article>
+    </section>
+    <div id="contact"></div>
+    <section class="conta">
+        <div class="about-head" >
+            <h2>CONTACT US</h2>
+        </div>
+        <article class="contact">
+            <div class="mail">
+                <h2>mail</h2>
+                <h3>csk@gmail.com</h3>
+            </div>
+            <div class="mail">
+                <h2>phone no</h2>
+                <h3>978300763910</h3>
+            </div>
+        </article>
+    </section>
+
+</body>
+</html>
